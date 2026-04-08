@@ -32,6 +32,6 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'health-monitor-app'
+          app-name: 'heath-monitor-app'
           # 2. Removed publish-profile since it's disabled in your Azure
           images: 'healthmonitorreg.azurecr.io/health-monitor-app:${{ github.sha }}'
