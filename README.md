@@ -78,6 +78,8 @@ docker build --platform linux/amd64 -t <registry>/<image>:<tag> .
 ## RESULTS
 ![Log Stream](screenshots/log-stream.png)
 ![Output](screenshots/output.png)
-Tried the logs from log stream.
+**Tried the logs from log stream.**
 ![Output](screenshots/output1.png)
+
+**Deployment Center**
 ![Deployment Center](screenshots/deployment-center.png)
